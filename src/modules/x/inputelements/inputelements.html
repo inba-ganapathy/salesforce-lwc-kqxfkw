@@ -1,0 +1,12 @@
+<template>
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input elements:
+  <input type="text" id="text-input-id-47" placeholder="Placeholder text…" required="" class="slds-input" />
+  <br>  
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button onclick={submit}>Submit</button>
+  <ul>
+    <li for:each={formfields} for:item="object" key={object.item}>
+       form : {object.item}
+    </li>
+  </ul>
+  </template>
+  
